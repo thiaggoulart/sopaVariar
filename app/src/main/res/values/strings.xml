@@ -2,6 +2,5 @@
     <string name="app_name">sopaVariar</string>
     <string name="emailLabel">Digite seu Email</string>
     <string name="passwordLabel">Digite sua Senha</string>
-    <string name="searchlabel">🔍 Procure sua receita</string>
-
+    <string name="nameLabel">Digite seu  nomes</string>
 </resources>
