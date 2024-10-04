@@ -30,5 +30,10 @@ class FormLogin : AppCompatActivity() {
             val goToCreate = Intent(this, Cadastro::class.java)
             startActivity(goToCreate)
         }
+
+        binding.linLayout.setOnClickListener {
+            val goToHome = Intent(this, Home::class.java)
+            startActivity(goToHome)
+        }
     }
 }
