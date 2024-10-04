@@ -1,34 +1,34 @@
 package br.edu.unilasalle.sopavariar
 
-import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import br.edu.unilasalle.sopavariar.databinding.ActivityCadastroBinding
 import br.edu.unilasalle.sopavariar.databinding.ActivityFormLoginBinding
 
-class FormLogin : AppCompatActivity() {
+class Cadastro : AppCompatActivity() {
 
-    private lateinit var binding: ActivityFormLoginBinding
+    private lateinit var binding: ActivityCadastroBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_form_login)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
+        setContentView(R.layout.activity_cadastro)
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.cadastro)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
 
-        binding = ActivityFormLoginBinding.inflate(layoutInflater)
+        binding = ActivityCadastroBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.create.setOnClickListener {
-            val goToCreate = Intent(this, Cadastro::class.java)
-            startActivity(goToCreate)
+            val goToLogin = Intent(this, FormLogin::class.java)
+            startActivity(goToLogin)
         }
     }
 }
