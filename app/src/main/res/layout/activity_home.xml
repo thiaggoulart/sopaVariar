@@ -102,26 +102,301 @@
         app:layout_constraintTop_toBottomOf="@+id/title" />
 
     <RelativeLayout
-        android:layout_width="343dp"
-        android:layout_height="434dp"
+        android:layout_width="match_parent"
+        android:layout_height="470dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.589">
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="-87dp">
 
-        <ImageView
-            android:id="@+id/imageView2"
+        <RelativeLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="-28dp"
-            android:layout_weight="2"
-            tools:srcCompat="@tools:sample/avatars" />
+            android:layout_height="222dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="237dp"
+            android:layout_marginBottom="246dp"
+            android:background="@color/grey">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="2"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="64dp"
+                android:layout_height="29dp"
+                android:layout_below="@+id/imageView2"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="64dp"
+                android:layout_marginBottom="45dp"
+                android:text="comida 1"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="41dp"
+                android:layout_below="@+id/imageView2"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="92dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="36dp"
+                android:text="⭐4.0"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="128dp"
+                android:layout_height="23dp"
+                android:layout_below="@+id/imageView2"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="43dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="11dp"
+                android:text="tempo de preparo: 1hora"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
 
 
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="222dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="243dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="246dp"
+            android:background="@color/grey">
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="2"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="64dp"
+                android:layout_height="29dp"
+                android:layout_below="@+id/imageView22"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="64dp"
+                android:layout_marginBottom="45dp"
+                android:text="comida 2"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="wrap_content"
+                android:layout_height="41dp"
+                android:layout_below="@+id/imageView22"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="92dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="36dp"
+                android:text="⭐4.0"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="128dp"
+                android:layout_height="23dp"
+                android:layout_below="@+id/imageView22"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="44dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:text="tempo de preparo: 1hora"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                tools:ignore="NotSibling" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="222dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="236dp"
+            android:layout_marginEnd="239dp"
+            android:layout_marginBottom="12dp"
+            android:background="@color/grey">
+
+            <ImageView
+                android:id="@+id/imageView223"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="2"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/textView323"
+                android:layout_width="64dp"
+                android:layout_height="29dp"
+                android:layout_below="@+id/imageView223"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="64dp"
+                android:layout_marginBottom="45dp"
+                android:text="comida 3"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView523"
+                android:layout_width="wrap_content"
+                android:layout_height="41dp"
+                android:layout_below="@+id/imageView223"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="92dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="36dp"
+                android:text="⭐4.0"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView423"
+                android:layout_width="128dp"
+                android:layout_height="23dp"
+                android:layout_below="@+id/imageView223"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="44dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:text="tempo de preparo: 1hora"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                tools:ignore="NotSibling" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="222dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="243dp"
+            android:layout_marginTop="236dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="12dp"
+            android:background="@color/grey">
+
+            <ImageView
+                android:id="@+id/imageView224"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="2"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/textView324"
+                android:layout_width="64dp"
+                android:layout_height="29dp"
+                android:layout_below="@+id/imageView224"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="64dp"
+                android:layout_marginBottom="45dp"
+                android:text="comida 2"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView524"
+                android:layout_width="wrap_content"
+                android:layout_height="41dp"
+                android:layout_below="@+id/imageView224"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="92dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="36dp"
+                android:text="⭐4.0"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView424"
+                android:layout_width="128dp"
+                android:layout_height="23dp"
+                android:layout_below="@+id/imageView224"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="44dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:text="tempo de preparo: 1hora"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                tools:ignore="NotSibling" />
+
+
+        </RelativeLayout>
     </RelativeLayout>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
