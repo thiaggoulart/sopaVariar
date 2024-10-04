@@ -20,7 +20,7 @@
         <Button
             android:id="@+id/all"
             style="@style/buttonType"
-            android:background="@drawable/cornerRad"
+            android:background="@drawable/edit_text_border"
             android:text="todos" />
 
         <Button
@@ -78,7 +78,7 @@
         android:layout_height="50dp"
         android:layout_marginEnd="100dp"
         android:background="@drawable/edit_text_border"
-        android:hint="@string/searchlabel"
+        android:hint="🔍 o que vamos cozinhar hoje?"
         android:inputType="text"
         android:maxLines="1"
         android:paddingStart="15dp"
